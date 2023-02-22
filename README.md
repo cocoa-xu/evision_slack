@@ -1,6 +1,6 @@
 # EvisionSlack
 
-Send processed image to Slack~! 
+Send processed image to a Slack channel!
 
 This project is inspired by [livebook-dev/kino_slack](https://github.com/livebook-dev/kino_slack). Most of the code is copied and paste from [livebook-dev/kino_slack](https://github.com/livebook-dev/kino_slack).
 
