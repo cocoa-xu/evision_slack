@@ -10,6 +10,7 @@ defmodule EvisionSlack.Application do
     children = [
       {Finch, name: EvisionSlack.Finch}
     ]
+
     opts = [strategy: :one_for_one, name: EvisionSlack.Supervisor]
     Supervisor.start_link(children, opts)
   end

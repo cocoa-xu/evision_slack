@@ -26,7 +26,7 @@ defmodule EvisionSlack.MixProject do
     [
       {:kino, "~> 0.7"},
       {:req, "~> 0.3"},
-      {:ex_doc, "~> 0.29", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.29", only: [:dev, :docs], runtime: false}
     ]
   end
 
