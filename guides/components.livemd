@@ -1,0 +1,15 @@
+# Components
+
+```elixir
+Mix.install([
+  {:evision_slack, "~> 0.1.0"},
+  {:evision, "~> 0.1"},
+  {:req, "~> 0.3"}
+])
+```
+
+## Smart cells
+
+The following Smart cells are available:
+
+* **Evision Image to Slack** - for sending a message with an image to a Slack channel
